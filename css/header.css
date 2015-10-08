@@ -1,0 +1,81 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Vollkorn);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900);
+
+
+
+
+nav.navbar	{
+	
+	background-color: white;
+	height: 80px;
+	width: 100%;
+	border-radius: 0;
+	color: #007ee5;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	border-bottom: 1px solid gray;
+
+}
+
+.Brand  a, .Brand a:hover, .Brand a:active, .Brand a:focus	{
+	color: #007ee5;
+	text-decoration: none;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+}
+
+@media (max-width: 767px)	{
+
+.searchform	{
+	display: none;
+	margin-top: 10px;
+}
+
+}
+@media (min-width: 768px)	{
+
+.searchform	{
+
+	margin-top: 20px;
+}
+
+}
+
+
+
+#search	{
+	margin-top: 22px;
+	font-size: 28px;
+}
+
+#search a, #search a:active	{
+	color: #007ee5;
+}
+
+#search a:hover	{
+	font-size: 32px;
+}
+
+#searchlarge	{
+	font-size: 28px;
+	margin-top: 20px;
+}
+
+#searchlarge a, #searchlarge a:active	{
+	color: gray;
+}
+
+#searchlarge a:hover	{
+	font-size: 32px;
+}
+
+
+
+
+
+
+
+
+
+
